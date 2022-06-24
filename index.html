@@ -24,11 +24,16 @@
 
           </div>
           <div class="total-item">
-
+            
           </div>
           <div class="remove-item">
-
+            <i class="fa-solid fa-trash-can"></i>
           </div>
+        </div>
+        <div>
+          <h1>
+            total
+          </h1>
         </div>
       </div>
       <div class="items">
@@ -37,19 +42,20 @@
             <img src="images/i1.jpeg" alt="" />
             <div class="prix-quantite">
               <div class="prix-stock">
-                <div class="prix"><h3>300$</h3></div>
+                <div class="prix"><h3 class="prix-h3"><span>300</span>$</h3></div>
                 <div class="stock"><h3>10 pc</h3></div>
               </div>
 
               <div class="quntiteBuy">
                 <div class="quantite">
-                  <button class="mince">-</button>
+                  <button onclick="functionMince()" class="mince">-</button>
                   <p class="numero">1</p>
-                  <button class="plus">+</button>
+                  <button onclick="functionPlus()" class="plus">+</button>
                 </div>
                 <div class="buy">
-                  <div class="icon">
-                    <i class="fa-regular fa-heart"></i>
+                  <div onclick="functionHeart()" class="icon">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                    <i  class="fa-regular fa-heart"></i>
                   </div>
                   <div class="ajouter">
                     <button>buy</button>
@@ -116,6 +122,6 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
   </body>
 </html>

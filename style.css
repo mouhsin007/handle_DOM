@@ -1,3 +1,9 @@
+/* lodash
+jquery */
+
+
+
+
 body{
     background-color: #C3D1E0;
 }
@@ -26,6 +32,19 @@ body{
     width: 800px;
     margin-top: 200px;
     margin-left: 50px;
+}
+.img-item img{
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 2px;
+}
+.total-item,.remove-item{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-right: 5px;
 }
 .card{
     padding: 20px;
